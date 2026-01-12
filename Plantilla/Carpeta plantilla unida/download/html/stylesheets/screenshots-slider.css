@@ -1,0 +1,181 @@
+/* ================================================================ */
+/* ==================== SCREENSHOTS SLIDER CSS ================== */
+/* ================================================================ */
+
+/* ===== SCREENSHOTS SLIDER STYLES ===== */
+.screenshots-slider-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.screenshots-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border: 3px solid #1abc9c;
+}
+
+.screenshots-slides {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    width: 100%; /* Mostrar solo una slide a la vez */
+}
+
+.screenshots-slide {
+    width: 100%; /* Cada slide ocupa el 100% del ancho */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    flex-shrink: 0; /* Evita que se compriman las slides */
+}
+
+.screenshots-slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 17px;
+    transition: all 0.4s ease;
+    display: block;
+    background-color: #fff;
+}
+
+.screenshots-slide img:hover {
+    transform: scale(1.02);
+}
+
+/* Navegación */
+.screenshots-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.screenshots-prev, .screenshots-next {
+    background: #1abc9c;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    pointer-events: all;
+    box-shadow: 0 5px 15px rgba(26, 188, 156, 0.4);
+    border: 2px solid #fff;
+}
+
+.screenshots-prev:hover, .screenshots-next:hover {
+    background: #16a085;
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(26, 188, 156, 0.6);
+}
+
+.screenshots-prev {
+    left: -25px;
+}
+
+.screenshots-next {
+    right: -25px;
+}
+
+/* Indicadores - FLOTAR SOBRE LA IMAGEN */
+.screenshots-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente */
+    border-radius: 25px;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    z-index: 20;
+}
+
+.screenshots-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.screenshots-dot.active {
+    background: #1abc9c;
+    border: 2px solid #fff;
+    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(26, 188, 156, 0.6);
+}
+
+.screenshots-dot:hover {
+    background: rgba(26, 188, 156, 0.8);
+    transform: scale(1.1);
+    border: 2px solid #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .screenshots-slider-container {
+        padding: 15px 10px;
+        max-width: 100%;
+    }
+    
+    .screenshots-slides {
+        flex-direction: column;
+    }
+    
+    .screenshots-slide {
+        width: 100%;
+    }
+    
+    .screenshots-prev, .screenshots-next {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    
+    .screenshots-prev {
+        left: -20px;
+    }
+    
+    .screenshots-next {
+        right: -20px;
+    }
+    
+    .screenshots-indicators {
+        bottom: 15px;
+        gap: 10px;
+        padding: 12px 15px;
+    }
+    
+    .screenshots-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
