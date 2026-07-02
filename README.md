@@ -37,6 +37,8 @@ Este repositorio contiene el desarrollo de una plataforma web tipo **MOOC (Massi
 > Si deseas visualizar la plataforma en funcionamiento y acceder al contenido del curso, puedes contactarme por correo electrónico. Con gusto te matricularé como estudiante para que puedas explorar todas las funcionalidades de la plataforma.
 >
 > <img width="1905" height="964" alt="Captura de pantalla 2026-01-27 192051" src="https://github.com/user-attachments/assets/5bb4f22d-157b-4a14-946a-36811de1cd6b" />
+<img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/c14cd5fb-40dc-4701-9191-1b4e32434734" />
+
 
 
 ---
