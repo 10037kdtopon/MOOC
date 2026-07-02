@@ -10,6 +10,8 @@ Interfaz dinámica y responsiva implementada con Angular, HTML5, CSS3 y jQuery.
 Integración de la API de Gemini para ofrecer un chatbot de asistencia basado en inteligencia artificial.
 Implementación de un Sandbox para la práctica y simulación de código en C++.
 Incorporación de recursos multimedia como videos, imágenes y actividades interactivas para mejorar la experiencia de aprendizaje.
+
+
 🛠️ Tecnologías utilizadas
 Angular
 HTML5
