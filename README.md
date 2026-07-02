@@ -1,34 +1,39 @@
-PLATAFORMA MOOC INTELIGENTE PARA EL APRENDIZAJE DE PROGRAMACIÓN
-Descripción
+# 🚀 Plataforma MOOC Inteligente para el Aprendizaje de Programación
 
-Este repositorio contiene el desarrollo de una plataforma web tipo MOOC (Massive Open Online Course) diseñada para fortalecer el aprendizaje de programación mediante una experiencia interactiva y dinámica.
+## 📋 Descripción
 
-La plataforma integra tecnologías modernas de desarrollo web, un asistente basado en inteligencia artificial y un entorno de práctica de código para facilitar el aprendizaje de los usuarios.
+Este repositorio contiene el desarrollo de una plataforma web tipo **MOOC (Massive Open Online Course)** diseñada para fortalecer el aprendizaje de programación mediante una experiencia interactiva y dinámica. La plataforma integra tecnologías modernas de desarrollo web, un asistente basado en inteligencia artificial y un entorno de práctica de código para facilitar el aprendizaje de los usuarios.
 
-Funcionalidades principales
+---
 
-Desarrollo de una plataforma educativa web para el aprendizaje de programación.
+## ✨ Funcionalidades
 
-Interfaz dinámica y responsiva implementada con Angular, HTML5, CSS3 y jQuery.
+- Desarrollo de una plataforma educativa web para el aprendizaje de programación.
+- Implementación de una interfaz dinámica y responsiva utilizando Angular, HTML5, CSS3 y jQuery.
+- Integración de la API de Gemini para desarrollar un chatbot de asistencia basado en inteligencia artificial.
+- Implementación de un Sandbox para la práctica y simulación de código en C++.
+- Incorporación de videos, imágenes y actividades interactivas para mejorar la experiencia de aprendizaje.
 
-Integración de la API de Gemini para ofrecer un chatbot de asistencia basado en inteligencia artificial.
+---
 
-Implementación de un Sandbox para la práctica y simulación de código en C++.
+## 🛠️ Tecnologías utilizadas
 
-Incorporación de recursos multimedia como videos, imágenes y actividades interactivas para mejorar la experiencia de aprendizaje.
+- Angular
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- API de Gemini
+- C++
+- Git
+- GitHub
 
-Tecnologías utilizadas
-Angular
-HTML5
-CSS3
-JavaScript
-jQuery
-API Gemini
-C++
-Git
-GitHub
-Nota importante
+---
 
-En este repositorio únicamente se encuentra el código fuente del proyecto para su ejecución en un entorno local.
+## 📝 Nota
 
-Si deseas visualizar la plataforma en funcionamiento y acceder al contenido del curso, puedes escribirme por correo electrónico. Con gusto te matricularé como estudiante para que puedas ingresar al curso y explorar todas sus funcionalidades.
+> **En este repositorio únicamente se encuentra el código fuente del proyecto para su ejecución en un entorno local.**
+>
+> Si deseas visualizar la plataforma en funcionamiento y acceder al contenido del curso, puedes contactarme por correo electrónico. Con gusto te matricularé como estudiante para que puedas explorar todas las funcionalidades de la plataforma.
+
+---
