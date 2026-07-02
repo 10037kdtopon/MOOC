@@ -21,4 +21,4 @@ C++
 Git
 GitHub
 
-📝 Nota: En este repositorio únicamente se encuentra el código fuente del proyecto para su ejecución en un entorno local.Si deseas visualizar la plataforma en funcionamiento y acceder al contenido del curso, puedes escribirme por correo electrónico. Con gusto te matricularé como estudiante para que puedas ingresar al curso y explorar todas sus funcionalidades.<<<<<<<<<<<<<<<<<<
+📝 Nota: En este repositorio únicamente se encuentra el código fuente del proyecto para su ejecución en un entorno local.Si deseas visualizar la plataforma en funcionamiento y acceder al contenido del curso, puedes escribirme por correo electrónico. Con gusto te matricularé como estudiante para que puedas ingresar al curso y explorar todas sus funcionalidades.
